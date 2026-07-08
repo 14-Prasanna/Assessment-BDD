@@ -1,0 +1,31 @@
+{
+  "name": "playwright-bdd-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:failed": "cucumber-js -p rerun"
+  },
+  "keywords": [
+    "playwright",
+    "BDD",
+    "cucumber",
+    "Automation",
+    "test",
+    "Assessment"
+  ],
+  "author": "Prasanna Venkatesh K ",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "csv-parse": "^7.0.1",
+    "dotenv": "^17.4.2"
+  }
+}
