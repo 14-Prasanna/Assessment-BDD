@@ -16,5 +16,5 @@ Feature: Register with valid Details
 
         Examples:
                   | firstname | lastname | email               | password    | confirmpassword | result                             |
-                  | Pr        | Ve       | prnnaet56@gmail.com | Password123 | Password123     | Your registration completed        |
+                  | Pr        | Ve       | prnna56@gmail.com   | Password123 | Password123     | Your registration completed        |
                   | John      | Doe      | invalid09@gmail.com | Admin123    | Admin123        | The specified email already exists |
